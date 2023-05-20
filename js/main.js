@@ -27,7 +27,7 @@ videoBtn.addEventListener('click', function () {
 
 	if (videoFile.paused) {
 		videoFile.play();
-		videoBtnIcon.src = '/video/pause.svg';
+		videoBtnIcon.src = './video/pause.svg';
 
 		videoOverlay.onmouseleave = toggleOverlay;
 		videoOverlay.onmouseenter = toggleOverlay;

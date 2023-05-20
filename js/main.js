@@ -34,7 +34,7 @@ videoBtn.addEventListener('click', function () {
 
 	} else {
 		videoFile.pause();
-		videoBtnIcon.src = '/video/play.svg';
+		videoBtnIcon.src = './video/play.svg';
 		videoOverlay.onmouseleave = null;
 		videoOverlay.onmouseenter = null;
 
